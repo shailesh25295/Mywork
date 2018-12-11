@@ -1,0 +1,253 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    width: 1220px;
+    margin: 0 auto;
+}
+
+body{
+    margin: 0 0;
+    padding: 0;
+}
+
+.topGreyLine{
+    background: #7c7c7c;
+    height:40px;
+    line-height:40px; 
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+.topGreyLine ul{
+    text-align: right;
+}
+.topGreyLine li{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 15px;
+    position: relative;
+}
+.topGreyLine li::before{
+    background: #fff;
+    content: "";
+    height: 13px;
+    left: 5px;
+    position: absolute;
+    width: 2px;
+    top: 14px;
+}
+
+.topGreyLine li:first-child::before{
+    display: none;
+}
+.topGreyLine li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+.logoArea{
+    font-size: 0;
+    padding: 30px 0;
+}
+.logoArea .common{
+    float: left;
+    line-height: 0;
+}
+
+.logoArea .common.rightArea{
+    float: right;
+}
+.rightArea img{
+    margin: 10px 0 0 50px;
+}
+
+.clear{
+    clear: both;
+}
+
+.BrandLogos{
+    border-top: 1px solid #ccc;
+    padding: 25px 0;
+}
+
+.BrandLogos ul{
+    text-align: center;
+    font-size: 0;
+}
+.BrandLogos li{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 25px;
+}
+
+.Navbar1{
+    background: #3a3a3c;
+    height: 40px;
+}
+
+
+.Navbar1 li{
+    display: inline;
+    padding-left: 15px;
+    position: relative;
+    font-size: 15px;
+    top:10px;
+}
+.Navbar1 li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;   
+}
+
+.Navbar1 li a:hover{
+    background: red;
+    transition: 0.3s;
+}
+
+#inputbox{
+    width: 300px;
+    height: 25px;
+}
+
+.Navbar2{
+    background:#eb7e23;
+    height: 60px;
+    line-height: 60px;
+    margin-top: 5px;
+}
+
+.Navbar2 li{
+    display: inline;
+    padding-left: 15px;
+    position: relative;
+    font-size: 15px;
+    
+    
+}
+
+.Navbar2 li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;   
+    font-weight: 600;
+}
+
+.Slider{
+    margin: 30px;
+}
+.Slider img{
+    width: 100%;
+
+}
+
+.leftImg1{
+float: left;
+width: 51%;
+padding-bottom: 30px;
+}
+
+.imgDiv2{float: right;
+            width: 49%;
+        }
+.leftImg1 img, .imgDiv2 img{ width: 100%;}
+
+.img1{
+    float: left;
+    width: 45%;
+    padding-bottom: 20px;
+    
+}
+
+.img2{
+    width: 45%;
+    float:right;
+}
+
+
+
+
+.footerdiv1 li{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 15px;
+    position: relative;
+}
+.footerdiv1 li::before{
+    background: #fff;
+    content: "";
+    height: 13px;
+    left: 5px;
+    position: absolute;
+    width: 2px;
+    top: 5px;
+}
+
+.footerdiv1 li:first-child::before{
+    display: none;
+}
+.footerdiv1 li a{
+    color: #51ace9;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.footerdiv1{
+    padding-top: 35px;
+}
+
+
+.footerdiv2 li{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 15px;
+    position: relative;
+}
+.footerdiv2 li::before{
+    background: #fff;
+    content: "";
+    height: 13px;
+    left: 5px;
+    position: absolute;
+    width: 2px;
+    top: 5px;
+}
+
+.footerdiv2 li:first-child::before{
+    display: none;
+}
+.footerdiv2 li a{
+    color: #7eaba3;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.footerdiv2{
+    padding-top: 30px;
+}
+
+
+.footerdiv3{
+    float:right;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.footerdiv3 li{
+    display: inline-block;
+    vertical-align:top;
+    padding-left: 15px;
+    position: relative;
+}
+
+
+
